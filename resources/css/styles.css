@@ -1,0 +1,65 @@
+.banner {
+  width: 80%;
+}
+
+.info-box {
+  background-color: rgb(241, 172, 44);
+  color: white;
+  border-radius: 10px;
+  min-height: 250px;
+  padding: 20px;
+}
+
+.info-box p {
+  text-align: left;
+  font-size: 1.2em;
+}
+
+.info-box h3 {
+  text-align: center;
+}
+
+.form-header {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 0.7rem;
+}
+
+.form-inline .form-control {
+  display: inline-block;
+  width: auto;
+  vertical-align: middle;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -5px;
+  margin-left: -5px;
+}
+
+.form-row > .col {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+label {
+  margin-bottom: 0.1rem;
+  font-weight: 600;
+  color: rgb(93, 93, 255);
+}
+
+.table > tbody > tr > td {
+  vertical-align: middle;
+}
+
+/* left align links in td hack */
+.table td a {
+  padding-left: 0;
+}
