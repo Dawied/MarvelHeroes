@@ -1,1 +1,1 @@
-# MarvelHeroes starter
+# MarvelHeroes Laravel starter project
