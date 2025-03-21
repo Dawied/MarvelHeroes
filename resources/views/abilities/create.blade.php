@@ -2,18 +2,18 @@
 
 @section('content')
     <div class="form-header">
-      <h1>New Ability</h1>
+        <h1>New Ability</h1>
     </div>
 
     @if ($errors->any())
-    <div class="alert alert-danger">
-        <ul>
-            @foreach ($errors->all() as $error)
-                <li>{{ $error }}</li>
-            @endforeach
-        </ul>
-    </div>
-    @endif    
+        <div class="alert alert-danger">
+            <ul>
+                @foreach ($errors->all() as $error)
+                    <li>{{ $error }}</li>
+                @endforeach
+            </ul>
+        </div>
+    @endif
 
     <form action="{{ route('abilities.store') }}" method="POST">
         @csrf
