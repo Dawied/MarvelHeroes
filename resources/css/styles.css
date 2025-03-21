@@ -3,11 +3,11 @@
 }
 
 .info-box {
-  background-color: rgb(241, 172, 44);
+  background-color: black;
   color: white;
+  font-size: 24px;
   border-radius: 10px;
-  min-height: 250px;
-  padding: 20px;
+  padding: 15px;
 }
 
 .info-box p {
