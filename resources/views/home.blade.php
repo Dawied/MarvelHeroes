@@ -4,7 +4,7 @@
     <div class="text-center mt-4">
         <h1>Marvel Heroes-Abilities</h1>
         <h4><a target="_blank" href="https://www.sdcheatsheets.nl/koppeltabellen-in-laravel/">Koppeltabellen in Laravel tutorial</a></h4>
-        <img class="banner" style="width: 60%;" src="{{ asset('marvelheroes.png') }}" alt="banner"/>
+        <img class="banner" style="width: 40%;" src="{{ asset('marvelheroes.png') }}" alt="banner"/>
     </div>
     <div class="d-flex gap-2">
         <div class="info-box col-4">
