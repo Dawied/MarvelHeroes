@@ -24,7 +24,7 @@ composer install
 npm install
 ```
 
-### 3. Rename `example.env` naar `.env` en edit de file:
+### 3. Rename `.env.example` naar `.env` en edit de file:
 
 ```
 DB_USERNAME=jouw_username
